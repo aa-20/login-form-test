@@ -1,0 +1,52 @@
+
+.login-text{
+    text-align: center;
+}
+.login-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    height: 100%;
+}
+.login-card{
+    width: 25em;
+    border-style: solid;
+    border-radius: 1.25em;
+    height: 22em;
+    padding: 1em 3em;
+   
+   
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.login-card form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    
+}
+#email,#pwd{
+    width: 99%;
+    border-radius: 0.5em;
+    border-color: grey;
+    height: 3em;
+}
+
+.input-box-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-text{
+    padding: 0;
+    margin: 0;
+}
+
+.login-btn{
+    width: 100%;
+    height: 3em;
+    border-radius: 3em;
+}
